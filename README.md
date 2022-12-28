@@ -1,24 +1,21 @@
 # my-project
+## 專案簡述
 
-## Project setup
+專案是使用 Vue.js 框架構建的。透過 HTTP 請求與文件定義好的方式與後端服務進行數據交互，並將數據呈現在網頁上。當使用者在網頁上進行操作時，介面由 HTTP 發送相應的請求給後端服務，並根據後端服務的響應進行更新界面。
+
+## 安裝環境 假設有node 
 ```
 npm install
 ```
 
-### Compiles and hot-reloads for development
+### 編譯環境 啟動前端
 ```
 npm run serve
 ```
 
-### Compiles and minifies for production
+### 打包-編譯 文件
 ```
 npm run build
 ```
 
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+http://localhost:8080/ 啟動後進入網址可以看到用於與後端通訊UI
